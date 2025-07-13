@@ -9,7 +9,6 @@ load_dotenv()
 
 
 class Agent:
-    x=1
     def __init__(self, model):
         self.model = model
         self.prompt_template = ChatPromptTemplate.from_messages(
@@ -121,7 +120,7 @@ class Agent:
             cac_increase_percent=cac_increase_percent,
             is_cac_increased_significantly=is_cac_increased_significantly,
         )
-        print(businessState)
+        print("businessStae: ",businessState,"\n")
         return businessState
 
     def recommendation_node(self, state: BusinessState) -> OutputState:
