@@ -1,0 +1,8 @@
+{
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.analysis.extraPaths": [
+    "./src"
+  ],
+  "python.analysis.indexing": true,
+  "python.analysis.autoSearchPaths": true
+}
